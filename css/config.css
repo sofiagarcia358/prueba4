@@ -1,0 +1,105 @@
+.estudiantes{
+    width: 400px;
+    height: 40px;
+    display: flex;
+}
+.titulo{
+    font-size: 60px;
+}
+.subtitulo{
+    font-size: 20px;
+}
+.foto{
+    width: 300px;
+    height: 550px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.perfil2{
+    width: 400px;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+}
+.perfil2_1{
+    width: 150px;
+    background-color: rgb(135, 5, 109);
+    color: white;
+    justify-content: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.perfil2_2{
+    width: 150px;
+    background-color: white;
+    border: 1px solid rgb(118, 5, 5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.perfil{
+    display: grid;
+    grid-template-columns: 55% 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.cuadro{
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+}
+.cuadro img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.apps{
+    display: flex;
+}
+.Trusted{
+    display: flex;
+}
+.titulo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.subtitulo{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.estudiantes1{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.estudiantes{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.perfil2{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.foto{
+    grid-column: 3/4;
+    grid-row: 1/7;
+    margin: auto;
+}
+.cuadro{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    margin: auto;
+}
+.Trusted{
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+.apps{
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
